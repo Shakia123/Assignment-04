@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+a{
+   text-decoration: none;
+}
+.wrapper{
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-image: url(../img/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.form-box{
+	width: 950px;
+	background-color: white;
+	margin: auto;
+}
+.form-row{
+	display: flex;
+}
+.form-left, .form-right{
+	flex-basis: 50%;
+}
+.form-left{
+	background-color: #373a3c;
+	padding: 100px 46px;
+}
+.form-left h2{
+	color: white;
+	font-weight: 600;
+	font-size: 42px;
+}
+.form-left h5{
+	color: white;
+	padding: 24px 0px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.form-left p{
+	color: white;
+	font-weight: 300;
+}
+.form-left i{
+	color: white;
+	padding: 24px 12px;
+}
+.form-left i:hover{
+	color: #54beff;
+}
+.form-right{
+	padding: 32px 32px;
+}
+.form-right h2{
+	color: #01cd74;
+	font-weight: 400;
+}
+.form-right p{
+	padding: 18px 0px;
+	color: #adadad;
+}
+.form-blank{
+	width: 75%;
+}
+.form-group{
+	position: relative;
+}
+.icon{
+	position: absolute;
+	top: 12px;
+	left: 8px;
+	font-size: 18px;
+	color: #01cd74;
+}
+.form-group input{
+	margin: 8px 0px;
+	padding: 6px 26px;
+}
+.btn button{
+	background-color: #01cd74;
+	color: white;
+	padding: 16px 105px;
+	border: none;
+	font-size: 16px;
+	margin-top: 14px;
+}
+.btn button:hover{
+	background-color: #046a00;
+	color: white;
+	font-weight: 600;
+}
